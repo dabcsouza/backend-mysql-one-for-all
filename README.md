@@ -264,7 +264,10 @@ E depois disso você só precisa rodar `npm test` quando for testar os projetos.
 
 * Crie um arquivo de configurações `desafio1.json`, que mapeará em qual tabela e coluna se encontram as informações necessárias para a avaliação automatizada deste desafio. As configurações devem possuir o seguinte formato:
 
-```json
+`um": "nome-da-coluna",
+  "tabela_que_contem_album": "nome-da-tabela-que-armazena-a-coluna",
+  "coluna_cancoes": "nome-da-coluna",
+  "tabela_``json
 {
   "coluna_usuario": "nome-da-coluna",
   "tabela_que_contem_usuario": "nome-da-tabela-que-armazena-a-coluna",
@@ -276,10 +279,7 @@ E depois disso você só precisa rodar `npm test` quando for testar os projetos.
   "tabela_que_contem_seguindo_artistas": "nome-da-tabela-que-armazena-a-coluna",
   "coluna_artista": "nome-da-coluna",
   "tabela_que_contem_artista": "nome-da-tabela-que-armazena-a-coluna",
-  "coluna_album": "nome-da-coluna",
-  "tabela_que_contem_album": "nome-da-tabela-que-armazena-a-coluna",
-  "coluna_cancoes": "nome-da-coluna",
-  "tabela_que_contem_cancoes": "nome-da-tabela-que-armazena-a-coluna"
+  "coluna_albque_contem_cancoes": "nome-da-tabela-que-armazena-a-coluna"
 }
 ```
 
