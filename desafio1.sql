@@ -63,7 +63,7 @@ CREATE TABLE SpotifyClone.following(
 
 INSERT INTO SpotifyClone.plans (name, value)
 VALUES
-  ('gratuito', 0),
+  ('gratuito', 0.00),
   ('familiar', 7.99),
   ('pessoal', 6.99),
   ('universitário', 5.99);
